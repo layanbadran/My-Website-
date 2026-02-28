@@ -1,0 +1,172 @@
+  *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        scroll-behavior:smooth;
+    }
+    header{
+         background-color: rgb(183, 203, 184);
+         display:flex;
+         justify-content: space-between;
+         margin: 0 auto;
+         padding: 0.5rem 2rem;
+         height: 70px;
+         align-items: center;
+    }
+.navigation ul{
+    display: flex;
+    list-style-type:none;
+    color: pink;
+    gap: 2rem;
+}
+.navigation a{
+    color: rgb(226, 43, 156);
+}
+.hr{
+    opacity: 10%;
+    color: rgb(81, 179, 110);
+}
+ .hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-right: 2rem;
+    margin: 0;
+    padding: 10%;
+    background-color: pink;
+    width: 100%;
+    height: 100vh;
+ }
+ .name{
+    font-size:3rem;
+    color:rgb(183, 203, 184);
+ }
+ .title{
+    font-size:3rem;
+    color: rgb(226, 43, 156);
+ }
+ .hireme{
+    background-color: rgb(183, 203, 184);
+    color: rgb(226, 43, 156);
+    border-radius: 24px;
+    text-decoration: none;
+    padding:0.29rem 1.5rem;
+ }
+ .MyWork{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 15rem;
+    background-color: pink;
+    width: 100%;
+    height: 100vh;
+ }
+ .MyWork img{
+    width: 300px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+ }
+ .MyWork img:hover{
+    transition: scale(0.9);
+    filter: brightness(0.7)  sepia(0.5);
+ }
+.AboutMe{
+    background-color: rgb(183, 203, 184);
+    color:rgb(226, 43, 156);
+    font-size: large;
+    margin: 0;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.aboutme{
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 1.8;
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    box-shadow: 0 10px 30px rgb(226, 43, 156);
+}
+.heroing{
+    width: auto;
+    height: 400px;
+}
+.herosub{
+    flex: 1;
+    text-align: center;
+}
+ .Contacter{
+    display: flex;
+    background-color: rgb(183, 203, 184);
+    color: rgb(226, 43, 156);
+     padding: 5rem auto;
+    gap: 5rem;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+ }
+ .contacttitle{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+ }
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+    gap: 15px;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px sienna;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+}
+.contact-form input:focus,
+.contact-form textarea:focus{
+    border-color: blueviolet;
+}
+.contact-form  .hireme{
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+.contact-form .hireme :hover{
+    opacity: 0.8;
+    transform: translate(-3px);
+}
+.contact-form button{
+    align-self: center;
+    padding: 10px 40px;
+    background-color: pink;
+    color: rgb(226, 43, 156);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.contacttitle .name{
+    color: rgb(226, 43, 156);
+}
+.herobtns{
+    margin-top: 20px;
+}
